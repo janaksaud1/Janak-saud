@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Janak Saud - Profile</title>
   <style>
     * {
@@ -13,34 +13,41 @@
     }
 
     body {
-      background: #f4f4f4;
+      background: #f0f4f8;
       color: #333;
       padding: 20px;
     }
 
     .card {
-      background: #fff;
+      background: #ffffff;
       max-width: 500px;
-      margin: 50px auto;
+      margin: 40px auto;
       padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      transition: 0.3s;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
 
-    .card:hover {
-      transform: scale(1.02);
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00b4d8;
+      margin-bottom: 10px;
     }
 
     .title {
-      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
       color: #0077b6;
       margin-bottom: 20px;
-      font-size: 28px;
     }
 
     .info {
-      margin-bottom: 15px;
+      text-align: left;
+      margin: 10px 0;
+      line-height: 1.6;
     }
 
     .info strong {
@@ -49,38 +56,41 @@
 
     .skills {
       background: #caf0f8;
-      padding: 10px;
+      padding: 12px;
       border-radius: 10px;
-      margin-top: 10px;
+      margin: 10px 0;
+      text-align: left;
     }
 
     .contact {
-      margin-top: 20px;
       background: #e0f7fa;
-      padding: 10px;
+      padding: 12px;
       border-radius: 10px;
+      margin-top: 15px;
     }
 
     .btn {
-      display: block;
-      text-align: center;
-      margin-top: 25px;
-      background: #00b4d8;
+      display: inline-block;
+      margin-top: 20px;
+      background: #25d366;
       color: white;
-      padding: 10px 15px;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 10px;
       text-decoration: none;
-      border-radius: 8px;
+      font-weight: bold;
       transition: 0.3s;
     }
 
     .btn:hover {
-      background: #0096c7;
+      background: #1ebe5d;
     }
   </style>
 </head>
 <body>
 
   <div class="card">
+    <img src="your-image.jpg" alt="Janak's Photo" class="profile-img" />
     <div class="title">👨‍💻 Janak Saud</div>
 
     <div class="info"><strong>Age:</strong> 18</div>
@@ -89,21 +99,22 @@
 
     <div class="info"><strong>Skills:</strong>
       <div class="skills">
-        ✅ Prompt Engineering<br />
+        ✅ Prompt Engineering<br/>
         ✅ Python Programming
       </div>
     </div>
 
     <div class="contact">
-      <strong>📞 Contact:</strong> 9800680555<br />
-      <strong>📧 Email:</strong> janaksaud939@gmail.com
+      <strong>📧 Email:</strong> janaksaud939@gmail.com<br/>
+      <strong>📞 Phone:</strong> 9800680555
     </div>
 
-    <a href="mailto:janaksaud939@gmail.com" class="btn">Contact Me</a>
+    <!-- WhatsApp button -->
+    <a class="btn" href="https://wa.me/9779800680555" target="_blank">💬 Contact Me on WhatsApp</a>
   </div>
 
   <script>
-    console.log("Welcome to Janak Saud’s Profile Page!");
+    console.log("Janak Saud’s Profile Page Loaded.");
   </script>
 
 </body>
